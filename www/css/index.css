@@ -1,5 +1,16 @@
+@font-face {
+  src: url("../fonts/josefin.ttf");
+  font-family: "Josefin";
+}
+
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: "Josefin", sans-serif;
 }
 
 body {
@@ -7,4 +18,29 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+    
+    background: #fff;
+    color: black;
+}
+
+/* --- */
+
+header {
+  width: 100%;
+  height: 60px;
+  
+  border-bottom: 1px solid black;
+  
+  text-align: center;
+  
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 14pt;
+  text-transform: uppercase;
+  letter-spacing: 12px;
 }
