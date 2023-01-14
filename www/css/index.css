@@ -21,8 +21,6 @@ body {
     
     background: #fff;
     color: black;
-    
-    overflow-y: hidden;
 }
 
 /* --- */
@@ -68,4 +66,32 @@ footer {
   height: 80px;
   
   flex: 1;
+  
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  
+  flex-direction: column;
+}
+
+.footer-img {
+  width: 29px;
+}
+
+footer span {
+  margin-top: 5px;
+}
+
+.selected span {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  
+  padding-bottom: 5px;
+}
+
+.selected span,
+footer img {
+  position: relative;
+  top: 3px;
 }
