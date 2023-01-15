@@ -3,6 +3,11 @@
   font-family: "Josefin";
 }
 
+:root {
+  --bg: #333;
+  --fg: #000;
+}
+
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
     
@@ -19,8 +24,8 @@ body {
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
     
-    background: #333;
-    color: black;
+    background: var(--bg);
+    color: var(--fg);
 }
 
 .disabled {
@@ -33,7 +38,7 @@ header {
   width: 100%;
   height: 60px;
   
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--fg);
   
   text-align: center;
   
@@ -69,7 +74,7 @@ footer {
   position: absolute;
   bottom: 0;
   
-  border-top: 1px solid black;
+  border-top: 1px solid var(--fg);
   
   text-align: center;
   
@@ -102,7 +107,7 @@ footer span {
 
 .selected span {
   font-weight: bold;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--fg);
   
   padding-bottom: 5px;
 }
