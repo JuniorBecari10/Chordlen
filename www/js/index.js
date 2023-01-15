@@ -1,5 +1,8 @@
 const modeBtn = qs("#mode-btn");
 
+const tabOpts = qsAll("footer .opt");
+const tabConts = qsAll("main .tab-cnt");
+
 // ---
 
 // test- remove
@@ -30,4 +33,9 @@ modeBtn.onclick = () => {
 
 function qs(q) {
   return document.querySelector(q);
+}
+
+
+function qsAll(q) {
+  return document.querySelectorAll(q);
 }
