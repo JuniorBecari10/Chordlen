@@ -16,6 +16,8 @@
     
     box-sizing: border-box;
     font-family: "Josefin", sans-serif;
+    
+    transition: color 0.2s, background 0.2s;
 }
 
 body {
