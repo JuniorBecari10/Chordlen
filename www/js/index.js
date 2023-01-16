@@ -11,7 +11,6 @@ const fullMoon = qs("#full-moon");
 const cBtn = qs("#c-btn");
 const csBtn = qs("#cs-btn");
 const dBtn = qs("#d-btn");
-const dsBtn = qs("#ds-btn");
 const ebBtn = qs("#eb-btn");
 const eBtn = qs("#e-btn");
 const fBtn = qs("#f-btn");
@@ -25,7 +24,6 @@ const bBtn = qs("#b-btn");
 const c = qs("#c");
 const cs = qs("#cs");
 const d = qs("#d");
-const ds = qs("#ds");
 const eb = qs("#eb");
 const e = qs("#e");
 const f = qs("#f");
@@ -66,6 +64,26 @@ fBtn.onclick = () => {
 
 fsBtn.onclick = () => {
   fs.play();
+};
+
+gBtn.onclick = () => {
+  g.play();
+};
+
+abBtn.onclick = () => {
+  ab.play();
+};
+
+aBtn.onclick = () => {
+  a.play();
+};
+
+bbBtn.onclick = () => {
+  bb.play();
+};
+
+bBtn.onclick = () => {
+  b.play();
 };
 
 // ---
