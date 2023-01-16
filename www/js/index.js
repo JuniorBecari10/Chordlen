@@ -22,7 +22,51 @@ const aBtn = qs("#a-btn");
 const bbBtn = qs("#bb-btn");
 const bBtn = qs("#b-btn");
 
+const c = qs("#c");
+const cs = qs("#cs");
+const d = qs("#d");
+const ds = qs("#ds");
+const eb = qs("#eb");
+const e = qs("#e");
+const f = qs("#f");
+const fs = qs("#fs");
+const g = qs("#g");
+const ab = qs("#ab");
+const a = qs("#a");
+const bb = qs("#bb");
+const b = qs("#b");
+
 var mode = false;
+
+// ---
+
+cBtn.onclick = () => {
+  c.play();
+};
+
+csBtn.onclick = () => {
+  cs.play();
+};
+
+dBtn.onclick = () => {
+  d.play();
+};
+
+ebBtn.onclick = () => {
+  eb.play();
+};
+
+eBtn.onclick = () => {
+  e.play();
+};
+
+fBtn.onclick = () => {
+  f.play();
+};
+
+fsBtn.onclick = () => {
+  fs.play();
+};
 
 // ---
 
