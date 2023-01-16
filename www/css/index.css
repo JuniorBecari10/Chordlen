@@ -94,6 +94,8 @@ footer {
   
   align-items: center;
   justify-content: center;
+  
+  background: var(--bg);
 }
 
 .opt {
@@ -134,4 +136,32 @@ main,
 main .tab-cnt {
   width: 100%;
   height: 100vh;
+}
+
+.chord-play {
+  width: 95%;
+  border: 1px solid var(--fg);
+  
+  padding: 10px;
+  
+  border-radius: 20px;
+  
+  margin-left: 50%;
+  transform: translateX(-50%);
+  
+  margin-top: 10px;
+}
+
+.chord-play p {
+  float: right;
+  
+  position: relative;
+  bottom: 13px;
+  right: 10px;
+}
+
+.chord-play h1 {
+  position: relative;
+  top: 10px;
+  left: 10px;
 }

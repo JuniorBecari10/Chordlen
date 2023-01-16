@@ -5,6 +5,7 @@
     <author email="antonioocarlos@proton.me" href="">
         Antonio Carlos
     </author>
+    <icon src="favicon.png" width="120" height="120" density="mdpi" />
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
