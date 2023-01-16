@@ -8,6 +8,20 @@ const tabConts = qsAll("main .tab-cnt");
 //const emptyMoon = qs("#empty-moon");
 const fullMoon = qs("#full-moon");
 
+const cBtn = qs("#c-btn");
+const csBtn = qs("#cs-btn");
+const dBtn = qs("#d-btn");
+const dsBtn = qs("#ds-btn");
+const ebBtn = qs("#eb-btn");
+const eBtn = qs("#e-btn");
+const fBtn = qs("#f-btn");
+const fsBtn = qs("#fs-btn");
+const gBtn = qs("#g-btn");
+const abBtn = qs("#ab-btn");
+const aBtn = qs("#a-btn");
+const bbBtn = qs("#bb-btn");
+const bBtn = qs("#b-btn");
+
 var mode = false;
 
 // ---
