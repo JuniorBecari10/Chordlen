@@ -34,6 +34,19 @@ const a = qs("#a");
 const bb = qs("#bb");
 const b = qs("#b");
 
+const cm = qs("#cm");
+const csm = qs("#csm");
+const dm = qs("#dm");
+const ebm = qs("#ebm");
+const em = qs("#em");
+const fm = qs("#fm");
+const fsm = qs("#fsm");
+const gm = qs("#gm");
+const abm = qs("#abm");
+const am = qs("#am");
+const bbm = qs("#bbm");
+const bm = qs("#bm");
+
 var mode = false;
 
 // ---
