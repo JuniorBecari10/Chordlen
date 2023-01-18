@@ -55,47 +55,47 @@ cBtn.onclick = () => {
   c.play();
 };
 
-csBtn.onclick = () => {
+csBtn.onclick = async () => {
   cs.play();
 };
 
-dBtn.onclick = () => {
+dBtn.onclick = async () => {
   d.play();
 };
 
-ebBtn.onclick = () => {
+ebBtn.onclick = async () => {
   eb.play();
 };
 
-eBtn.onclick = () => {
+eBtn.onclick = async () => {
   e.play();
 };
 
-fBtn.onclick = () => {
+fBtn.onclick = async () => {
   f.play();
 };
 
-fsBtn.onclick = () => {
+fsBtn.onclick = async () => {
   fs.play();
 };
 
-gBtn.onclick = () => {
+gBtn.onclick = async () => {
   g.play();
 };
 
-abBtn.onclick = () => {
+abBtn.onclick = async () => {
   ab.play();
 };
 
-aBtn.onclick = () => {
+aBtn.onclick = async () => {
   a.play();
 };
 
-bbBtn.onclick = () => {
+bbBtn.onclick = async () => {
   bb.play();
 };
 
-bBtn.onclick = () => {
+bBtn.onclick = async () => {
   b.play();
 };
 
