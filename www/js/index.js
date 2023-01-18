@@ -54,19 +54,31 @@ var mode = false;
 // ---
 
 cBtn.onclick = async () => {
-  c.play();
+  if (selectPenta.value == "major")
+    c.play();
+  else
+    cm.play();
 };
 
 csBtn.onclick = async () => {
-  cs.play();
+  if (selectPenta.value == "major")
+    cs.play();
+  else
+    csm.play();
 };
 
 dBtn.onclick = async () => {
-  d.play();
+  if (selectPenta.value == "major")
+    d.play();
+  else
+    dm.play();
 };
 
 ebBtn.onclick = async () => {
-  eb.play();
+  if (selectPenta.value == "major")
+    eb.play();
+  else
+    ebm.play();
 };
 
 eBtn.onclick = async () => {
@@ -74,31 +86,52 @@ eBtn.onclick = async () => {
 };
 
 fBtn.onclick = async () => {
-  f.play();
+  if (selectPenta.value == "major")
+    f.play();
+  else
+    fm.play();
 };
 
 fsBtn.onclick = async () => {
-  fs.play();
+  if (selectPenta.value == "major")
+    fs.play();
+  else
+    fsm.play();
 };
 
 gBtn.onclick = async () => {
-  g.play();
+  if (selectPenta.value == "major")
+    g.play();
+  else
+    gm.play();
 };
 
 abBtn.onclick = async () => {
-  ab.play();
+  if (selectPenta.value == "major")
+    ab.play();
+  else
+    abm.play();
 };
 
 aBtn.onclick = async () => {
-  a.play();
+  if (selectPenta.value == "major")
+    a.play();
+  else
+    abm.play();
 };
 
 bbBtn.onclick = async () => {
-  bb.play();
+  if (selectPenta.value == "major")
+    bb.play();
+  else
+    bbm.play();
 };
 
 bBtn.onclick = async () => {
-  b.play();
+  if (selectPenta.value == "major")
+    b.play();
+  else
+    bm.play();
 };
 
 // ---
