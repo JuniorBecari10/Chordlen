@@ -5,6 +5,8 @@ const modeBtn = qs("#mode-btn");
 const tabOpts = qsAll("footer .opt");
 const tabConts = qsAll("main .tab-cnt");
 
+const selectPenta = qs("#penta");
+
 //const emptyMoon = qs("#empty-moon");
 const fullMoon = qs("#full-moon");
 
@@ -51,7 +53,7 @@ var mode = false;
 
 // ---
 
-cBtn.onclick = () => {
+cBtn.onclick = async () => {
   c.play();
 };
 
@@ -127,6 +129,83 @@ function updateMode(mode) {
   
   localStorage["mode"] = mode;
 }
+
+selectPenta.onchange = () => {
+  if (selectPenta.value == "major") {
+    qs("#c-btn h1").innerHTML = "C";
+    qs("#c-btn p").innerHTML = "C E G";
+    
+    qs("#cs-btn h1").innerHTML = "C#";
+    qs("#cs-btn p").innerHTML = "C# F Ab";
+    
+    qs("#d-btn h1").innerHTML = "D";
+    qs("#d-btn p").innerHTML = "D F# G";
+    
+    qs("#eb-btn h1").innerHTML = "Eb";
+    qs("#eb-btn p").innerHTML = "Eb G Bb";
+    
+    qs("#e-btn h1").innerHTML = "E";
+    qs("#e-btn p").innerHTML = "E Ab B";
+    
+    qs("#f-btn h1").innerHTML = "F";
+    qs("#f-btn p").innerHTML = "F A C";
+    
+    qs("#fs-btn h1").innerHTML = "F#";
+    qs("#fs-btn p").innerHTML = "F# Ab C#";
+    
+    qs("#g-btn h1").innerHTML = "G";
+    qs("#g-btn p").innerHTML = "G B D";
+    
+    qs("#ab-btn h1").innerHTML = "Ab";
+    qs("#ab-btn p").innerHTML = "Ab C Eb";
+    
+    qs("#a-btn h1").innerHTML = "A";
+    qs("#a-btn p").innerHTML = "A C# E";
+    
+    qs("#bb-btn h1").innerHTML = "Bb";
+    qs("#bb-btn p").innerHTML = "Bb D F";
+    
+    qs("#b-btn h1").innerHTML = "B";
+    qs("#b-btn p").innerHTML = "B Eb F#";
+  }
+  else { // minor
+    qs("#c-btn h1").innerHTML = "Cm";
+    qs("#c-btn p").innerHTML = "C Eb G";
+    
+    qs("#cs-btn h1").innerHTML = "C#m";
+    qs("#cs-btn p").innerHTML = "C# E Ab";
+    
+    qs("#d-btn h1").innerHTML = "Dm";
+    qs("#d-btn p").innerHTML = "D F G";
+    
+    qs("#eb-btn h1").innerHTML = "Ebm";
+    qs("#eb-btn p").innerHTML = "Eb F# Bb";
+    
+    qs("#e-btn h1").innerHTML = "Em";
+    qs("#e-btn p").innerHTML = "E G B";
+    
+    qs("#f-btn h1").innerHTML = "Fm";
+    qs("#f-btn p").innerHTML = "F Ab C";
+    
+    qs("#fs-btn h1").innerHTML = "F#m";
+    qs("#fs-btn p").innerHTML = "F# G C#";
+    
+    qs("#g-btn h1").innerHTML = "Gm";
+    qs("#g-btn p").innerHTML = "G Bb D";
+    
+    qs("#ab-btn h1").innerHTML = "Abm";
+    qs("#ab-btn p").innerHTML = "Ab B Eb";
+    
+    qs("#a-btn h1").innerHTML = "Am";
+    qs("#a-btn p").innerHTML = "A C E";
+    
+    qs("#bb-btn h1").innerHTML = "Bbm";
+    qs("#bb-btn p").innerHTML = "Bb C# F";
+    
+    qs("#b-btn h1").innerHTML = "Bm";
+    qs("#b-btn p").innerHTML = "B D F#";
+  }
+};
 
 // ---
 
